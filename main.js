@@ -7381,7 +7381,7 @@ Game.Launch=function()
 			
 			if (list.length==0)
 			{
-				if (loreProgress<=0) list.push(loc("Orteil please don't DMCA me im only 13 i cant pay legal fees and i only made this so i can play cookie clicker on my school computer."));
+				if (loreProgress<=0) list.push(loc("Orteil please don't DMCA me im only 13 i cant pay legal fees and i only made this so i can play cookie clicker on my school computer. EDIT like 15 minutes later: FUCK IT'S BLOCKED BECAUSE IT'S CATEGORIZED AS UNKNOWN DIG&OFUIYWKILUYWGFUOIILGUEYFVUGIOEU:YGILBEHIJPIHULDHJKIEO:HUBKJDJIDOHULBJV"));
 				else if (loreProgress<=1) list.push(loc("Your first batch goes to the trash. The neighborhood raccoon barely touches it."));
 				else if (loreProgress<=2) list.push(loc("Your family accepts to try some of your cookies."));
 				else if (loreProgress<=3) list.push(loc("Your cookies are popular in the neighborhood."),loc("People are starting to talk about your cookies."));
