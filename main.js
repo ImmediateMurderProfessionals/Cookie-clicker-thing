@@ -7163,7 +7163,6 @@ Game.Launch=function()
 						'News : extremely smart cortex baker found with an IQ somehow higher than that of legendary gigachad BombCraft, who has no idea why he added this easter egg in the first place.',
 						'News : are you smarter than a cortex baker? New game show deemed "unfair" by contestants.'
 						]));
-						
 						if (Game.Objects['You'].amount>0) list.push(choose([
 						'News : the person of the year is, this year again, '+Game.bakeryName+'! How unexpected!',
 						'News : criminals caught sharing pirated copies of '+Game.bakeryName+'\'s genome may be exposed to fines and up to 17 billion years prison, reminds constable.',
@@ -7172,7 +7171,6 @@ Game.Launch=function()
 						'News : "Really, we\'re just looking for some basic societal acceptance and compassion", mumbles incoherent genetic freak '+Game.bakeryName+'-Clone #59014.',
 						'News : I. M. P. hired to kill '+Game.bakeryName+', get arrested after killing clone.'
 						]));
-						
 						if (Game.season=='halloween' && Game.cookiesEarned>=1000) list.push(choose([
 						'News : strange twisting creatures amass around cookie factories, nibble at assembly lines.',
 						'News : ominous wrinkly monsters take massive bites out of cookie production; "this can\'t be hygienic", worries worker.',
@@ -7275,7 +7273,6 @@ Game.Launch=function()
 						'News : kitties want answers in possible Kitty Kibble shortage.'
 						);
 					}
-					
 					if (Game.cookiesEarned>=10000) list.push(
 					'News : '+choose([
 						'cookies found to '+choose(['increase lifespan','sensibly increase intelligence','reverse aging','decrease hair loss','prevent arthritis','cure blindness'])+' in '+choose(animals)+'!',
@@ -7319,7 +7316,7 @@ Game.Launch=function()
 						'News : what makes cookies taste so right? "Probably all the [*****] they put in them", says anonymous tipper.',
 						'News : man found allergic to cookies; "what a weirdo", says family.',
 						'News : foreign politician involved in cookie-smuggling scandal.',
-						'News : cookies now more popular than '+choose(['cough drops','broccoli','smoked herring','cheese','video games','stable jobs','relationships','time travel','cat videos','tango','fashion','television','nuclear warfare','whatever it is we ate before','politics','oxygen','lamps'])+', says study.',
+						'News : cookies now more popular than '+choose(['cough drops','broccoli','smoked herring','cheese','video games','stable jobs','relationships','time travel','cat videos','tango','fashion','television','nuclear warfare','whatever it is we ate before','politics','oxygen','sex jokes','Helluva Boss','Skibidi Toilet','cookies','The Amazing Digital Circus','trademarks','Geometry Dash','school','lamps'])+', says study.',
 						'News : obesity epidemic strikes nation; experts blame '+choose(['twerking','that darn rap music','video-games','lack of cookies','mysterious ghostly entities','aliens','parents','schools','comic-books','cookie-snorting fad'])+'.',
 						'News : cookie shortage strikes town, people forced to eat cupcakes; "just not the same", concedes mayor.',
 						'News : "you gotta admit, all this cookie stuff is a bit ominous", says confused idiot.',
@@ -7397,7 +7394,6 @@ Game.Launch=function()
 				else if (loreProgress<=13) list.push(loc("The universe has now turned into cookie dough, to the molecular level."),loc("Your cookies are rewriting the fundamental laws of the universe."));
 				else if (loreProgress<=14) list.push(loc("A local news station runs a 10-minute segment about your cookies. Success!<br><small>(you win a cookie)</small>"),loc("it's time to stop playing"));
 			}
-			
 			//if (Game.elderWrath>0 && (Game.pledges==0 || Math.random()<0.2))
 			if (Game.elderWrath>0 && (((Game.pledges==0 && Game.resets==0) && Math.random()<0.3) || Math.random()<0.03))
 			{
@@ -7426,7 +7422,6 @@ Game.Launch=function()
 					'News : im gay'
 				]):(NEWS+choose(loc("Ticker (grandma invasion full)"))));
 			}
-			
 			if (EN && Game.season=='fools')
 			{
 				list=[];
