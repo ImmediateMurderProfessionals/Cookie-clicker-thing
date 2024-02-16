@@ -7160,6 +7160,7 @@ Game.Launch=function()
 						'News : space-faring employees advised to ignore unusual thoughts and urges experienced within 2 parsecs of gigantic cortex bakers, say guidelines.',
 						'News : astronomers warn of cortex baker trajectory drift, fear future head-on collisions resulting in costly concussions.',
 						'News : runt cortex baker identified with an IQ of only quintuple digits: "just a bit of a dummy", say specialists.',
+						'News : extremely smart cortex baker found with an IQ somehow higher than that of legendary gigachad BombCraft, who has no idea why he added this easter egg in the first place.',
 						'News : are you smarter than a cortex baker? New game show deemed "unfair" by contestants.'
 						]));
 						
@@ -7168,7 +7169,8 @@ Game.Launch=function()
 						'News : criminals caught sharing pirated copies of '+Game.bakeryName+'\'s genome may be exposed to fines and up to 17 billion years prison, reminds constable.',
 						'News : could local restaurants be serving you bootleg '+Game.bakeryName+' clone meat? Our delicious investigation follows after tonight\'s news.',
 						'News : beloved cookie magnate '+Game.bakeryName+', erroneously reported as trampled to death by crazed fans, thankfully found to be escaped clone mistaken for original.',
-						'News : "Really, we\'re just looking for some basic societal acceptance and compassion", mumbles incoherent genetic freak '+Game.bakeryName+'-Clone #59014.'
+						'News : "Really, we\'re just looking for some basic societal acceptance and compassion", mumbles incoherent genetic freak '+Game.bakeryName+'-Clone #59014.',
+						'News : I. M. P. hired to kill '+Game.bakeryName+', get arrested after killing clone.'
 						]));
 						
 						if (Game.season=='halloween' && Game.cookiesEarned>=1000) list.push(choose([
@@ -7226,7 +7228,7 @@ Game.Launch=function()
 					{
 						if (Game.HasAchiev('Base 10')) list.push('News : cookie manufacturer completely forgoes common sense, lets strange obsession with round numbers drive building decisions!');
 						if (Game.HasAchiev('From scratch')) list.push('News : follow the tear-jerking, riches-to-rags story about a local cookie manufacturer who decided to give it all up!');
-						if (Game.HasAchiev('A world filled with cookies')) list.push('News : known universe now jammed with cookies! No vacancies!');
+						if (Game.HasAchiev('A world filled with cookies')) list.push('News : known universe now jammed with cookies! No vacancies! (JUST KIDDING, YOU NEED LIKE 25 SEPTENVIGINTILLION COOKIES FOR THAT TO HAPPEN LOL)');
 						if (Game.HasAchiev('Last Chance to See')) list.push('News : incredibly rare albino wrinkler on the brink of extinction poached by cookie-crazed pastry magnate!');
 						if (Game.Has('Serendipity')) list.push('News : local cookie manufacturer becomes luckiest being alive!');
 						if (Game.Has('Season switcher')) list.push('News : seasons are all out of whack! "We need to get some whack back into them seasons", says local resident.');
@@ -7278,6 +7280,7 @@ Game.Launch=function()
 					'News : '+choose([
 						'cookies found to '+choose(['increase lifespan','sensibly increase intelligence','reverse aging','decrease hair loss','prevent arthritis','cure blindness'])+' in '+choose(animals)+'!',
 						'cookies found to make '+choose(animals)+' '+choose(['more docile','more handsome','nicer','less hungry','more pragmatic','tastier'])+'!',
+						'News : BombCraft accidentally sends innocent Cookie Clicker players a link to https://youtube.com/watch?v=OlahNrlcgS4 after procrastinating too much instead of doing homework',
 						'cookies tested on '+choose(animals)+', found to have no ill effects.',
 						'cookies unexpectedly popular among '+choose(animals)+'!',
 						'unsightly lumps found on '+choose(animals)+' near cookie facility; "they\'ve pretty much always looked like that", say biologists.',
@@ -7378,7 +7381,7 @@ Game.Launch=function()
 			
 			if (list.length==0)
 			{
-				if (loreProgress<=0) list.push(loc("You feel like making cookies. But nobody wants to eat your cookies."));
+				if (loreProgress<=0) list.push(loc("Orteil please don't DMCA me im only 13 i cant pay legal fees and i only made this so i can play cookie clicker on my school computer."));
 				else if (loreProgress<=1) list.push(loc("Your first batch goes to the trash. The neighborhood raccoon barely touches it."));
 				else if (loreProgress<=2) list.push(loc("Your family accepts to try some of your cookies."));
 				else if (loreProgress<=3) list.push(loc("Your cookies are popular in the neighborhood."),loc("People are starting to talk about your cookies."));
@@ -7405,6 +7408,7 @@ Game.Launch=function()
 					'News : families around the continent report agitated, transfixed grandmothers!',
 					'News : doctors swarmed by cases of old women with glassy eyes and a foamy mouth!',
 					'News : nurses report "strange scent of cookie dough" around female elderly patients!'
+					'News : This is an easter egg I added and I will never see because I am too scared to trigger the grandmapocalypse lol!',
 				]):(NEWS+choose(loc("Ticker (grandma invasion start)"))));
 				if (Game.elderWrath==2) list.push(EN?choose([
 					'News : town in disarray as strange old ladies break into homes to abduct infants and baking utensils!',
@@ -7418,7 +7422,8 @@ Game.Launch=function()
 					'News : wrinkled "flesh tendrils" visible from space!',
 					'News : remains of "old ladies" found frozen in the middle of growing fleshy structures!', 
 					'News : all hope lost as writhing mass of flesh and dough engulfs whole city!',
-					'News : nightmare continues as wrinkled acres of flesh expand at alarming speeds!'
+					'News : nightmare continues as wrinkled acres of flesh expand at alarming speeds!',
+					'News : im gay'
 				]):(NEWS+choose(loc("Ticker (grandma invasion full)"))));
 			}
 			
