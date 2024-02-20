@@ -7068,7 +7068,7 @@ Game.Launch=function()
 						]));
 						
 						if (Game.Objects['Wizard tower'].amount>0) list.push(choose([
-						'News : all '+choose([choose(animals),choose(['public restrooms','clouds','politicians','moustaches','hats','shoes','pants','clowns','encyclopedias','websites','potted plants','lemons','household items','bodily fluids','cutlery','national landmarks','yogurt','rap music','underwear'])])+' turned into '+choose([choose(animals),choose(['public restrooms','clouds','politicians','moustaches','hats','shoes','pants','clowns','encyclopedias','websites','potted plants','lemons','household items','bodily fluids','cutlery','national landmarks','yogurt','rap music','underwear'])])+' in freak magic catastrophe!',
+						'News : all '+choose([choose(animals),choose(['public restrooms','elsagate','demons','gigachads','H-makers','birds','shoes','Helluva Boss references in this shitty Cookie Clicker mod','swear words','memes','toilets','wind','clouds','politicians','moustaches','hats','shoes','pants','clowns','encyclopedias','websites','potted plants','lemons','household items','bodily fluids','cutlery','national landmarks','yogurt','rap music','underwear'])])+' turned into '+choose([choose(animals),choose(['public restrooms','elsagate','demons','gigachads','H-makers','birds','shoes','Helluva Boss references in this shitty Cookie Clicker mod','swear words','memes','toilets','wind','clouds','politicians','moustaches','hats','shoes','pants','clowns','encyclopedias','websites','potted plants','lemons','household items','bodily fluids','cutlery','national landmarks','yogurt','rap music','underwear'])])+' in freak magic catastrophe!',
 						'News : heavy dissent rages between the schools of '+choose(['water','fire','earth','air','lightning','acid','song','battle','peace','pencil','internet','space','time','brain','nature','techno','plant','bug','ice','poison','crab','kitten','dolphin','bird','punch','fart'])+' magic and '+choose(['water','fire','earth','air','lightning','acid','song','battle','peace','pencil','internet','space','time','brain','nature','techno','plant','bug','ice','poison','crab','kitten','dolphin','bird','punch','fart'])+' magic!',
 						'News : get your new charms and curses at the yearly National Spellcrafting Fair! Exclusive prices on runes and spellbooks.',
 						'News : cookie wizards deny involvement in shockingly ugly newborn - infant is "honestly grody-looking, but natural", say doctors.',
@@ -7095,7 +7095,7 @@ Game.Launch=function()
 						'News : nation worried as more and more unsettling creatures emerge from dimensional portals!',
 						'News : dimensional portals involved in city-engulfing disaster!',
 						'News : tourism to cookieverse popular with bored teenagers! Casualty rate as high as 73%!',
-						'News : cookieverse portals suspected to cause fast aging and obsession with baking, says study.',
+						'News : Hexagon asked by BombCraft to add a Portal reference, deletes entire game instead.',
 						'News : "do not settle near portals," says specialist; "your children will become strange and corrupted inside."'
 						]));
 						
@@ -7103,7 +7103,7 @@ Game.Launch=function()
 						'News : time machines involved in history-rewriting scandal! Or are they?',
 						'News : time machines used in unlawful time tourism!',
 						'News : cookies brought back from the past "unfit for human consumption", says historian.',
-						'News : various historical figures inexplicably replaced with talking lumps of dough!',
+						'News : various historical figures inexplicably replaced with mirror portals!',
 						'News : "I have seen the future," says time machine operator, "and I do not wish to go there again."'
 						]));
 						
@@ -7116,19 +7116,19 @@ Game.Launch=function()
 						]));
 						
 						if (Game.Objects['Prism'].amount>0) list.push(choose([
-						'News : new cookie-producing prisms linked to outbreak of rainbow-related viral videos.',
+						'News : LGBTQ+ community overjoyed after new cookie-producing prisms cause outbreak of rainbow-related viral videos.',
 						'News : scientists warn against systematically turning light into matter - "One day, we\'ll end up with all matter and no light!"',
 						'News : cookies now being baked at the literal speed of light thanks to new prismatic contraptions.',
 						'News : "Can\'t you sense the prism watching us?", rambles insane local man. "No idea what he\'s talking about", shrugs cookie magnate/government official.',
-						'News : world citizens advised "not to worry" about frequent atmospheric flashes.',
+						'News : prisms suspected of sucking light emitted by phones and turning them into cookies after teenagers report being unable to use their phones.',
 						]));
 						
 						if (Game.Objects['Chancemaker'].amount>0) list.push(choose([
 						'News : strange statistical anomalies continue as weather forecast proves accurate an unprecedented 3 days in a row!',
-						'News : local casino ruined as all gamblers somehow hit a week-long winning streak! "We might still be okay", says owner before being hit by lightning 47 times.',
+						'News : Fizzarolli given a lobotomy; scientists unsure on why you need to own a Chancemaker before this news headline can appear.',
 						'News : neighboring nation somehow elects president with sensible policies in freak accident of random chance!',
 						'News : million-to-one event sees gritty movie reboot turning out better than the original! "We have no idea how this happened", say movie execs.',
-						'News : all scratching tickets printed as winners, prompting national economy to crash and, against all odds, recover overnight.',
+						'News : BombCraft, in a rare event that occurs less than once every 1,000 years, adds an easter egg that doesn\'t suck.',
 						]));
 						
 						if (Game.Objects['Fractal engine'].amount>0) list.push(choose([
@@ -7159,8 +7159,8 @@ Game.Launch=function()
 						'News : cortex baker wranglers kindly remind employees that cortex bakers are the bakery\'s material property and should not be endeared with nicknames.',
 						'News : space-faring employees advised to ignore unusual thoughts and urges experienced within 2 parsecs of gigantic cortex bakers, say guidelines.',
 						'News : astronomers warn of cortex baker trajectory drift, fear future head-on collisions resulting in costly concussions.',
-						'News : runt cortex baker identified with an IQ of only quintuple digits: "just a bit of a dummy", say specialists.',
-						'News : extremely smart cortex baker found with an IQ somehow higher than that of legendary gigachad BombCraft, who has no idea why he added this easter egg in the first place.',
+						'News : runt cortex baker identified with an IQ of only '+Math.floor(Math.random()*594845+69420)+': "just a bit of a dummy", say specialists.',
+						'News : rogue cortex baker dismantled after killing '+Math.floor(Math.random()*9440940858589686+57568768786)+' people.',
 						'News : are you smarter than a cortex baker? New game show deemed "unfair" by contestants.'
 						]));
 						if (Game.Objects['You'].amount>0) list.push(choose([
@@ -7258,7 +7258,7 @@ Game.Launch=function()
 					'News : experts in bitter disagreement over whether sugar consumption turns children sluggish or hyperactive.',
 					'News : fishermen deplore upturn in fish tooth decay as sugar lumps-hauling cargo sinks into the ocean.',
 					'News : rare black sugar lump that captivated millions in unprecedented auction revealed to be common toxic fungus.',
-					'News : "Back in my day, sugar lumps were these little cubes you\'d put in your tea, not those fist-sized monstrosities people eat for lunch", whines curmudgeon with failing memory.',
+					'News : "Back in my day, sugar lumps were these little cubes you\'d put in your tea, not those fist-sized monstrosities people eat for lunch", whines curmudgeon with stage'+Math.floor(Math.random()*13+5)+'alzheimers.',
 					'News : sugar lump-snacking fad sweeps the nation; dentists everywhere rejoice.'
 					]));
 					
@@ -7268,9 +7268,9 @@ Game.Launch=function()
 						'You have been chosen. They will come soon.',
 						'They\'re coming soon. Maybe you should think twice about opening the door.',
 						'The end is near. Make preparations.',
-						'News : broccoli tops for moms, last for kids; dads indifferent.',
-						'News : middle age a hoax, declares study; turns out to be bad posture after all.',
-						'News : kitties want answers in possible Kitty Kibble shortage.'
+						'kill yourself',
+						'News :',
+						'News : titties want answers in possible Kitty Kibble shortage.'
 						);
 					}
 					if (Game.cookiesEarned>=10000) list.push(
@@ -7306,7 +7306,7 @@ Game.Launch=function()
 						])+'", reveals celebrity.',
 					choose([
 						'News : scientist predicts imminent cookie-related "end of the world"; becomes joke among peers.',
-						'News : man robs bank, buys cookies.',
+						'News : man robs bank, buys bank.',
 						'News : scientists establish that the deal with airline food is, in fact, a critical lack of cookies.',
 						'News : hundreds of tons of cookies dumped into starving country from airplanes; thousands dead, nation grateful.',
 						'News : new study suggests cookies neither speed up nor slow down aging, but instead "take you in a different direction".',
@@ -7330,7 +7330,7 @@ Game.Launch=function()
 						'News : movie cancelled from lack of actors; "everybody\'s at home eating cookies", laments director.',
 						'News : comedian forced to cancel cookie routine due to unrelated indigestion.',
 						'News : new cookie-based religion sweeps the nation.',
-						'News : fossil records show cookie-based organisms prevalent during Cambrian explosion, scientists say.',
+						'News : fossil records show cookie-based orgasms prevalent during Cambrian explosion, scientists say.',
 						'News : mysterious illegal cookies seized; "tastes terrible", says police.',
 						'News : man found dead after ingesting cookie; investigators favor "mafia snitch" hypothesis.',
 						'News : "the universe pretty much loops on itself," suggests researcher; "it\'s cookies all the way down."',
@@ -7339,17 +7339,17 @@ Game.Launch=function()
 						'News : '+choose(['cookie-flavored popcorn pretty damn popular; "we kinda expected that", say scientists.','cookie-flavored cereals break all known cereal-related records','cookies popular among all age groups, including fetuses, says study.','cookie-flavored popcorn sales exploded during screening of Grandmothers II : The Moistening.']),
 						'News : all-cookie restaurant opening downtown. Dishes such as braised cookies, cookie thermidor, and for dessert : crepes.',
 						'News : "Ook", says interviewed orangutan.',
-						'News : cookies could be the key to '+choose(['eternal life','infinite riches','eternal youth','eternal beauty','curing baldness','world peace','solving world hunger','ending all wars world-wide','making contact with extraterrestrial life','mind-reading','better living','better eating','more interesting TV shows','faster-than-light travel','quantum baking','chocolaty goodness','gooder thoughtness','deez nuts'])+', say scientists.',
+						'News : cookies could be the key to '+choose(['eternal life','infinite riches','eternal youth','eternal beauty','curing baldness','world peace','solving world hunger','ending all wars world-wide','making contact with extraterrestrial life','mind-reading','your mom','better living','better eating','more interesting TV shows','faster-than-light travel','quantum baking','chocolaty goodness','gooder thoughtness','deez nuts'])+', say scientists.',
 						'News : flavor text '+choose(['not particularly flavorful','kind of unsavory','"rather bland"','pretty spicy lately'])+', study finds.',
 					]),
 					choose([
 						'News : what do golden cookies taste like? Study reveals a flavor "somewhere between spearmint and liquorice".',
 						'News : what do wrath cookies taste like? Study reveals a flavor "somewhere between blood sausage and seawater".',
-						'News : '+Game.bakeryName+'-brand cookies "'+choose(['much less soggy','much tastier','relatively less crappy','marginally less awful','less toxic','possibly more edible','more fashionable','slightly nicer','trendier','arguably healthier','objectively better choice','slightly less terrible','decidedly cookier','a tad cheaper'])+' than competitors", says consumer survey.',
+						'News : '+Game.bakeryName+'-brand cookies "'+choose(['much less soggy','much tastier','relatively less crappy','marginally less awful','less toxic','possibly more edible','more fashionable','slightly nicer','trendier','arguably healthier','objectively better choice','slightly less terrible','decidedly cookier','more accessible','a tad cheaper'])+' than competitors", says consumer survey.',
 						'News : "'+Game.bakeryName+'" set to be this year\'s most popular baby name.',
 						'News : new popularity survey says '+Game.bakeryName+'\'s the word when it comes to cookies.',
 						'News : major city being renamed '+Game.bakeryName+'ville after world-famous cookie manufacturer.',
-						'News : '+choose(['street','school','nursing home','stadium','new fast food chain','new planet','new disease','flesh-eating bacteria','deadly virus','new species of '+choose(animals),'new law','baby','programming language'])+' to be named after '+Game.bakeryName+', the world-famous cookie manufacturer.',
+						'News : '+choose(['street','school','nursing home','stadium','new fast food chain','new planet','new disease','flesh-eating bacteria','deadly virus','new species of '+choose(animals),'new law','baby','programming language','video game'])+' to be named after '+Game.bakeryName+', the world-famous cookie manufacturer.',
 						'News : don\'t miss tonight\'s biopic on '+Game.bakeryName+'\'s irresistible rise to success!',
 						'News : don\'t miss tonight\'s interview of '+Game.bakeryName+' by '+choose(['Bloprah','Blavid Bletterman','Blimmy Blimmel','Blellen Blegeneres','Blimmy Blallon','Blonan Blo\'Brien','Blay Bleno','Blon Blewart','Bleven Blolbert','Lord Toxikhron of dimension 7-B19',Game.bakeryName+'\'s own evil clone'])+'!',
 						'News : people all over the internet still scratching their heads over nonsensical reference : "Okay, but why an egg?"',
