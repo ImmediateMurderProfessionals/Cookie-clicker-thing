@@ -7096,7 +7096,7 @@ Game.Launch=function()
 						'News : dimensional portals involved in city-engulfing disaster!',
 						'News : tourism to cookieverse popular with bored teenagers! Casualty rate as high as 73%!',
 						'News : Hexagon asked by BombCraft to add a Portal reference, deletes entire game instead.',
-						'News : "do not settle near portals," says specialist; "your children will become strange and corrupted inside."'
+						'News : "do not attend middle school gym class," says specialist; "your children will become strange and corrupted inside."'
 						]));
 						
 						if (Game.Objects['Time machine'].amount>0) list.push(choose([
