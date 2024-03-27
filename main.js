@@ -16868,8 +16868,9 @@ window.onload=function()
 							//catch(err) {console.log('ERROR : '+err.message);}
 						}
 					}
-					if (App && App.loadMods) App.loadMods(launch);
-					else launch();
+					//if (App && App.loadMods) App.loadMods(launch);
+					//else
+					launch();
 				});
 			}}(lang));
 		}
