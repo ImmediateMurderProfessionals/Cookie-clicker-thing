@@ -7358,7 +7358,7 @@ Game.Launch=function()
 						'Neeeeews : "neeeew EEEEEE keeeeey working fineeeeeeeee", reeeports gleeeeeeeeful journalist.',
 						'News : cookies now illegal in some backwards country nobody cares about. Political tensions rising; war soon, hopefully.',
 						'News : irate radio host rambles about pixelated icons. "None of the cookies are aligned! Can\'t anyone else see it? I feel like I\'m taking crazy pills!"',
-						'News : nation cheers as legislators finally outlaw '+choose(['cookie criticism','playing other games than Cookie Clicker','pineapple on pizza','lack of cheerfulness','mosquitoes','broccoli','the human spleen','bad weather','clickbait','dabbing','the internet','memes','millennials'])+'!',
+						'News : nation cheers as legislators finally outlaw '+choose(['cookie criticism','playing other games than Cookie Clicker','lack of pineapple on pizza','lack of cheerfulness','mosquitoes','broccoli','the human spleen','bad weather','clickbait','dabbing','the internet','memes','millennials'])+'!',
 						'News : '+choose(['local','area'])+' '+choose(['man','woman'])+' goes on journey of introspection, finds cookies : "I honestly don\'t know what I was expecting."',
 						'News : '+choose(['man','woman'])+' wakes up from coma, '+choose(['tries cookie for the first time, dies.','regrets it instantly.','wonders "why everything is cookies now".','babbles incoherently about some supposed "non-cookie food" we used to eat.','cites cookies as main motivator.','asks for cookies.']),
 						'News : pet '+choose(animals)+', dangerous fad or juicy new market?',
@@ -7397,7 +7397,7 @@ Game.Launch=function()
 					'News : families around the continent report agitated, transfixed grandmothers!',
 					'News : doctors swarmed by cases of old women with glassy eyes and a foamy mouth!',
 					'News : nurses report "strange scent of cookie dough" around female elderly patients!'
-					'News : This is an easter egg I added and I will never see because I am too scared to trigger the grandmapocalypse lol!',
+					'News : teenager finds thing he wrote before realizing he can just turn off scary stuff!',
 				]):(NEWS+choose(loc("Ticker (grandma invasion start)"))));
 				if (Game.elderWrath==2) list.push(EN?choose([
 					'News : town in disarray as strange old ladies break into homes to abduct infants and baking utensils!',
@@ -7412,7 +7412,7 @@ Game.Launch=function()
 					'News : remains of "old ladies" found frozen in the middle of growing fleshy structures!', 
 					'News : all hope lost as writhing mass of flesh and dough engulfs whole city!',
 					'News : nightmare continues as wrinkled acres of flesh expand at alarming speeds!',
-					'News : im gay'
+					'News : giant globs of flesh threaten wildlife across the globe, including the beloved cinnamon fox!'
 				]):(NEWS+choose(loc("Ticker (grandma invasion full)"))));
 			}
 			if (EN && Game.season=='fools')
